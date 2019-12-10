@@ -1,0 +1,24 @@
+Collecting mxnet
+  Downloading https://files.pythonhosted.org/packages/a4/3e/07f6d61d8e0a5d50c6f128791a617d7b222224c52dacba04855a0b6ecfe6/mxnet-1.5.0-py2.py3-none-win_amd64.whl (23.5MB)
+Requirement already satisfied, skipping upgrade: numpy<1.17.0,>=1.8.2 in c:\users\rjsgm\anaconda3\lib\site-packages (from mxnet) (1.16.5)
+Collecting requests<2.19.0,>=2.18.4 (from mxnet)
+  Downloading https://files.pythonhosted.org/packages/49/df/50aa1999ab9bde74656c2919d9c0c085fd2b3775fd3eca826012bef76d8c/requests-2.18.4-py2.py3-none-any.whl (88kB)
+Collecting graphviz<0.9.0,>=0.8.1 (from mxnet)
+  Downloading https://files.pythonhosted.org/packages/53/39/4ab213673844e0c004bed8a0781a0721a3f6bb23eb8854ee75c236428892/graphviz-0.8.4-py2.py3-none-any.whl
+Collecting urllib3<1.23,>=1.21.1 (from requests<2.19.0,>=2.18.4->mxnet)
+  Downloading https://files.pythonhosted.org/packages/63/cb/6965947c13a94236f6d4b8223e21beb4d576dc72e8130bd7880f600839b8/urllib3-1.22-py2.py3-none-any.whl (132kB)
+Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in c:\users\rjsgm\anaconda3\lib\site-packages (from requests<2.19.0,>=2.18.4->mxnet) (2019.9.11)
+Collecting idna<2.7,>=2.5 (from requests<2.19.0,>=2.18.4->mxnet)
+  Downloading https://files.pythonhosted.org/packages/27/cc/6dd9a3869f15c2edfab863b992838277279ce92663d334df9ecf5106f5c6/idna-2.6-py2.py3-none-any.whl (56kB)
+Requirement already satisfied, skipping upgrade: chardet<3.1.0,>=3.0.2 in c:\users\rjsgm\anaconda3\lib\site-packages (from requests<2.19.0,>=2.18.4->mxnet) (3.0.4)
+Installing collected packages: urllib3, idna, requests, graphviz, mxnet
+  Found existing installation: urllib3 1.24.2
+    Uninstalling urllib3-1.24.2:
+      Successfully uninstalled urllib3-1.24.2
+  Found existing installation: idna 2.8
+    Uninstalling idna-2.8:
+      Successfully uninstalled idna-2.8
+  Found existing installation: requests 2.22.0
+    Uninstalling requests-2.22.0:
+      Successfully uninstalled requests-2.22.0
+Successfully installed graphviz-0.8.4 idna-2.6 mxnet-1.5.0 requests-2.18.4 urllib3-1.22
