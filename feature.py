@@ -472,6 +472,7 @@ print(get_mpqa_norm_features(list_file)[1])
 print(get_vocab_richness_measures(list_file)[1])
 print(get_cosine_distance(list_file)[1])
 
+#s
 
 #print(list_file)
 #print(mpqa_features.keys())
