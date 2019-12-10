@@ -462,13 +462,13 @@ def get_cosine_distance(data):
 
 
 
-#get_pos_features(list_file)
-#get_mpqa_norm_features(list_file)
+get_pos_features(list_file)
+get_mpqa_norm_features(list_file)
 get_vocab_richness_measures(list_file)
 get_cosine_distance(list_file)
 
-#print(get_pos_features(list_file)[1])
-#print(get_mpqa_norm_features(list_file)[1])
+print(get_pos_features(list_file)[1])
+print(get_mpqa_norm_features(list_file)[1])
 print(get_vocab_richness_measures(list_file)[1])
 print(get_cosine_distance(list_file)[1])
 
